@@ -429,4 +429,4 @@ async def slap(ctx, member: discord.Member):
     await ctx.send(embed=embed)
 
 
-client.run('NzMwNDYwMTY2MzczMzc2MDMw.XwX5Cg.xIQMcFzKOnLxtTKDYZiPzf9S9tk')
+client.run('Token')
