@@ -53,9 +53,6 @@ client.remove_command('help')
 #criar um ciclo de status para o que o bot esta jogando.
 status = cycle(['Para obter ajuda: >ajuda', 'Coe rapazeada', 'Me convide para seus servidores!'])
 
-#https://discord.gg/HSC4srX
-#https://discord.com/api/oauth2/authorize?client_id=415332587645698050&permissions=805306055&scope=bot
-#https://discord.com/api/oauth2/authorize?client_id=415332587645698050&permissions=8&scope=bot
 @client.event
 async def on_ready():
     mudar_status.start()
